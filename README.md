@@ -1,5 +1,7 @@
 #GREGORIAN #WESTERN #SHAMSI #PERSIAN #SOLAR #MILADI #Jalali, #Persian, #Khorshidi      
 ```rust
+use gregorian2shamsi::*;
+
 fn main(){
     let d =Date { day: 15, month: 12, year: 1399 };
     println!("{:?}",
